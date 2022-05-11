@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="./css/sstyle2.css">
+		<title>Contacts</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container _container">
+					<a href="index.html" class="header__logo">
+			<i class="fas fa-car"></i> TESLA
+					</a>
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="index.html" class="menu__link">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a href="gallery.html" class="menu__link">Галерея</a>
+              </li>
+              <li class="menu__item">
+                <a href="index3.html" class="menu__link">Отзывы</a>
+              </li>
+              <li class="menu__item">
+                <a href="./index2.html" class="menu__link">Контакты</a>
+              </li>
+              <li class="menu__item">
+                <a href="./abou-us.html" class="menu__link">Автомобили</a>
+              </li>
+            </ul>
+          </nav>
+				</div>
+			</header>
+			<main class="page">
+				<div class="page__main-block main-block">
+					<div class="main-block__container _container">
+						<div class="main-block__body">
+							<h1 class="main-block__title">Контакты</h1>
+							<div class="main-block__text">
+						
+							</div>
+						
+						</div>
+					</div>
+					<div class="main-block__image _ibg">
+						<img src="./img/tesla/back2.jpg" alt="cover">
+					</div>
+				</div>
+
+        <!-- _------------------ФОРМА------------------------------------ -->
+        <div class="form-at">
+          <div class="validate-input-at w-50" data-validate="Обязательное поле">
+              <input class="input-at" type="text" name="name-at" placeholder="Ваше имя" />
+              <span class="focus-input-at"></span>
+          </div>
+          <div class="validate-input-at w-50" data-validate="Обязательное поле">
+              <input class="input-at" type="text" name="email-at" placeholder="Ваш телефон или email" />
+              <span class="focus-input-at"></span>
+          </div>
+          <div class="validate-input-at" data-validate="Обязательное поле">
+              <textarea class="input-at" name="message-at" placeholder="Ваше сообщение"></textarea>
+              <span class="focus-input-at"></span>
+          </div>
+          <input checked="checked" class="input-at" id="checkbox-at" type="checkbox" name="checkbox-at" onchange="document.getElementById('submit-at').disabled = !this.checked;" />
+          <label for="checkbox-at">
+              Настоящим подтверждаю, что я ознакомлен и согласен с <a href="#rules">пользовательским соглашением</a>
+          </label> 
+          <input type="hidden" name="subject-at" value="Тема формы">
+          <button id="submit-at" class="form-at-btn">Отправить</button>
+         
+
+      </div>
+      <div class="result-at"></div>
+      
+     
+		<!-- ---------------------------------END------------------ -->
+
+    <!-- ------------------------------FOOTER----------------------- -->
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__main _container">
+          <div class="footer__row">
+            <div class="footer__column">
+              <div class="footer__label">Блог</div>
+              <nav class="footer__menu menu-footer">
+                <ul class="menu-footer__list">
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">О нас</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Поддержка</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Тех поддержэка </a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Блог</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="footer__column">
+              <div class="footer__label">Информация</div>
+              <nav class="footer__menu menu-footer">
+                <ul class="menu-footer__list">
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">О нас</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Поддержка</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Тех поддержка</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Блог</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="footer__column">
+              <div class="footer__label">Особенности</div>
+              <nav class="footer__menu menu-footer">
+                <ul class="menu-footer__list">
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">О нас</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Поддержка</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Тех поддержка</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Блог</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="footer__column">
+              <div class="footer__label">Источники</div>
+              <nav class="footer__menu menu-footer">
+                <ul class="menu-footer__list">
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">About Us</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Поддержка</a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Тех поддержэка </a></li>
+                  <li class="menu-footer__item"><a href="" class="menu-footer__link">Блог</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="footer__column">
+              <div class="footer__label">Контакты</div>
+              <div class="footer__contacts contacts-footer">
+                <a href="tel:4805550103" class="contacts-footer__item contacts-footer__item_phone">7 900 329 35 68</a>
+                <a href="" class="contacts-footer__item contacts-footer__item_map">Альметьесвк АПТ</a>
+                <a href="mailto:debra.holt@example.com" class="contacts-footer__item contacts-footer__item_email">ilonmusk@mail.ru</a>
+                
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+   
+      <div class="footer__bottom">
+        <div class="footer__container _container">
+          <div class="footer__copy">Сделано С <i class="far fa-heart"></i>  Все Права Защищены </div>
+          <div class="footer__social social">
+            <a href="" class="social__item">
+              <img src="img/footer/social/01.svg" alt="social">
+            </a>
+            <a href="" class="social__item">
+              <img src="img/footer/social/02.svg" alt="social">
+            </a>
+            <a href="" class="social__item">
+              <img src="img/footer/social/03.svg" alt="social">
+            </a>
+            <a href="" class="social__item">
+              <img src="img/footer/social/04.svg" alt="social">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- -----------------------------FOOTER--------------------------- -->
+		<script src="js/script.js"></script>
+		<script src="https://kit.fontawesome.com/553acfa497.js" crossorigin="anonymous"></script>
+	</body>
+</html>
